@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* ENCABEZADO */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 30px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.marca img {
+  width: 100px;
+}
+
+.marca h2 {
+  color: #07552f;
+}
+
+nav {
+  display: flex;
+
+  gap: 15px;
+}
+
+nav a {
+  color: black;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+/* INICIO */
+
+.inicio {
+  text-align: center;
+
+  padding: 100px 20px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.inicio h1 {
+  color: #07552f;
+
+  font-size: 50px;
+}
+
+.inicio h3 {
+  color: #35a514;
+
+  font-size: 24px;
+}
+
+.inicio p {
+  font-size: 18px;
+
+  margin: 30px;
+}
+
+.boton-verde {
+  background-color: #07552f;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+}
+
+/* SERVICIOS */
+
+.servicios {
+  text-align: center;
+
+  padding: 70px 20px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.servicios h2 {
+  font-size: 32px;
+}
+
+.servicios p {
+  font-size: 18px;
+}
+
+.tarjetas {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  margin-top: 50px;
+}
+
+.tarjeta {
+  width: 300px;
+
+  height: 200px;
+
+  padding: 25px;
+
+  border: 1px solid #cccccc;
+
+  border-radius: 12px;
+
+  text-align: center;
+}
+
+.tarjeta h3 {
+  color: #138a4b;
+
+  font-size: 22px;
+}
+
+.tarjeta a {
+  color: #138a4b;
+
+  font-weight: bold;
+}
+
+/* INFORMACION */
+
+.informacion {
+  padding: 60px 150px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.informacion h2 {
+  color: #07552f;
+
+  font-size: 30px;
+}
+
+.informacion h3 {
+  color: #138a4b;
+}
+
+.informacion p {
+  font-size: 18px;
+}
+
+.informacion li {
+  margin: 10px;
+}
+
+.informacion ul {
+  margin-bottom: 35px;
+}
+
+/* VIDEO */
+
+.video {
+  text-align: center;
+
+  padding: 70px 20px;
+
+  background-color: #f1f8f3;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.video h2 {
+  color: #07552f;
+
+  font-size: 32px;
+}
+
+.video p {
+  font-size: 18px;
+
+  margin-bottom: 30px;
+}
+
+/* NOSOTROS */
+
+.nosotros {
+  text-align: center;
+
+  padding: 70px 20px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.nosotros h2 {
+  color: #07552f;
+
+  font-size: 32px;
+}
+
+.nosotros img {
+  width: 180px;
+
+  margin: 20px;
+}
+
+.nosotros p {
+  width: 800px;
+
+  margin: 20px auto;
+
+  font-size: 18px;
+}
+
+/* UBICACION */
+
+.ubicacion {
+  text-align: center;
+
+  padding: 70px 20px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.ubicacion h2 {
+  color: #07552f;
+
+  font-size: 32px;
+}
+
+.ubicacion iframe {
+  margin-top: 20px;
+
+  border: 1px solid #cccccc;
+}
+
+/* FORMULARIO */
+
+.formulario {
+  text-align: center;
+
+  padding: 70px 20px;
+
+  background-color: #f1f8f3;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.formulario h2 {
+  color: #07552f;
+
+  font-size: 32px;
+}
+
+.formulario input {
+  width: 400px;
+
+  padding: 10px;
+
+  border: 1px solid #cccccc;
+}
+
+.formulario select {
+  width: 420px;
+
+  padding: 10px;
+
+  border: 1px solid #cccccc;
+}
+
+.formulario textarea {
+  width: 400px;
+
+  height: 100px;
+
+  padding: 10px;
+
+  border: 1px solid #cccccc;
+}
+
+.formulario input[type="submit"] {
+  width: 120px;
+
+  margin-top: 20px;
+
+  background-color: #07552f;
+
+  color: white;
+}
+
+.formulario input[type="reset"] {
+  width: 120px;
+
+  margin-top: 20px;
+}
+
+/* CONTACTO */
+
+.contacto {
+  text-align: center;
+
+  padding: 70px 20px;
+}
+
+.contacto h2 {
+  color: #07552f;
+
+  font-size: 32px;
+}
+
+.contacto p {
+  font-size: 18px;
+}
+
+.datos-contacto {
+  width: 550px;
+
+  margin: 30px auto;
+
+  padding: 25px;
+
+  border: 1px solid #cccccc;
+
+  border-radius: 12px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+  text-align: center;
+
+  background-color: #07552f;
+
+  color: white;
+
+  padding: 40px;
+}
+
+footer img {
+  width: 100px;
+
+  background-color: white;
+}
+
+footer h3 {
+  font-size: 25px;
+}
+
+footer a {
+  color: white;
+
+  margin: 15px;
+
+  font-weight: bold;
+}
+
+footer p {
+  margin-top: 25px;
+}
